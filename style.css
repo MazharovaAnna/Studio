@@ -70,17 +70,19 @@ p {
 .nav__link--active {
   color: #6bba9c;
 }
+
+/*nav-toggle
+  ===================*/
+
 .nav-toggle {
   display: none;
   width: 40px;
-
   font-size: 0;
+  cursor: pointer;
   color: transparent;
   border: 0;
   background: none;
-  cursor: pointer;
   position: absolute;
-  font-size: 0;
   right: 24px;
   z-index: 1;
 }
@@ -97,6 +99,7 @@ p {
   right: 0;
   bottom: 0;
 }
+
 .nav-toggle__item:before,
 .nav-toggle__item:after {
   content: "";
